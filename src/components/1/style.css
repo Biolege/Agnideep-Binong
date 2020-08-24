@@ -1,0 +1,167 @@
+.cont-style {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito Sans';
+  }
+
+  .progressbar li {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+  }
+
+  .progressbar .progress-step:last-child:after {
+    display: none;
+  }
+
+  .progressbar .progress-step:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 10px;
+    height: 10px;
+    padding: 2px 2px 2px 2px;
+    font-size: 12px;
+    background: #808080;
+    border: 1px solid black;
+    border-radius: 100%;
+    color: #fff;
+  }
+
+  .progressbar .progress-step:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 100%;
+    transition: width 1s ease-in;
+    height: 1px;
+    background: black;
+    z-index: -1;
+  }
+
+  .progressbar .progress-step.is-active {
+    color: #2183dd;
+  }
+
+  .progressbar .progress-step.is-active:before {
+    border: 4px solid #777;
+    animation: pulse 2s infinite;
+  }
+
+  .progressbar .progress-step.is-complete {
+    color: black;
+  }
+
+  .progressbar .progress-step.is-complete:before {
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #fff;
+    background: #2183dd;
+    border: 4px solid transparent;
+  }
+
+  .progressbar .progress-step.is-complete:after {
+    background: #B4D7FF;
+    animation: nextStep 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(33, 131, 221, 0.4);
+    }
+
+    70% {
+      box-shadow: 0 0 0 10px rgba(33, 131, 221, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgba(33, 131, 221, 0);
+    }
+  }
+
+  @keyframes nextStep {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 100%;
+    }
+  }
+
+  .input-box {
+    background-color: white;
+    font-size: 16px;
+    border-right: 0px;
+    padding-right: 0px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  .input-box1 {
+    background-color: white;
+    border-left: 0px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+
+  .input-icon {
+    color: #4982de;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+  }
+
+  .sub-heading {
+    font-size: 14px;
+  }
+
+  .card-style {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .card-body {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    /*.new-to {
+      display:none;
+    }*/
+    .cat-card {
+      width: 75%;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .cat-card {
+      width: 100%;
+    }
+
+    .new-to {
+      display: none;
+    }
+    .section1{
+      display: none;
+    }
+  }

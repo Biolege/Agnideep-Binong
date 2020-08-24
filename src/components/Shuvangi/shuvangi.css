@@ -1,0 +1,491 @@
+*
+        {
+            font-family: 'Nunito', sans-serif;
+        }
+        .navbar-nav
+        {
+            display: -webkit-inline-box;
+        }
+        .navbar 
+        {
+            background-color: blue;
+            padding-top: 33px;
+            padding-bottom: 0;
+        }
+        .items
+        {
+            margin-left: 959px;
+        }
+        .container-fluid
+        {
+            padding: 0;
+        }
+        .icon1
+        {
+            width: 20px;
+            height: 20px;
+        }
+        .icon1esp
+        {
+            width: 20px;
+            height: 20px;
+            margin-top: 11px;
+        }
+        .navbar-nav .nav-link
+        {
+            padding-right: 29px;
+            color: white;
+        }
+        .welclass
+        {
+            font-size: 10px;
+            margin-top: -4px;
+            margin-left: 5px;
+        }
+        .welclass1
+        {
+            margin-top: -47px;
+            margin-left: 5px;
+        }
+        .welclassf
+        {
+            font-size: 10px;
+            margin-top: -32px;
+            margin-left: 26px;
+        }
+        .welclassf1
+        {
+            margin-top: -47px;
+            margin-left: 26px;
+            font-size: 10px;
+        }
+        .itemsleft .welclassf
+        {
+            font-size: medium;
+        }
+        .itemsleft
+        {
+            margin-bottom: -24px;
+        }
+        .itemsleft .welclassf
+        {
+            padding-bottom: 5px;
+        }
+        .itemsleft .welclassf1
+        {
+            padding-bottom: 5px;
+            font-size: 13px;
+        }
+        .navhr
+        {
+            border: 1px solid deepskyblue;
+            margin-top: -15px;
+        }
+       
+        .pbform
+        {
+            box-shadow: 7px 7px 7px 7px #f5eeee;
+            padding: 10px;
+            height: 79px;
+        }
+        .pb
+        {
+            margin-top: 57px;
+            box-shadow: 7px 7px 7px 7px #f5eeee;
+        }
+        .pb ul
+        {
+            text-align: center;
+        }
+        .pb ul li
+        {
+            display: inline-block;
+            position: relative;
+        }
+        .pb img
+        {
+            width: 23px;
+            height: 25px;
+            border-radius: 50%;
+        }
+        .pb li
+        {
+            list-style-type: none;
+            float: left;
+            width: 31.33% ;   
+        }
+        .pb ul li:before 
+        {
+            content: '';
+            background: #ccc;
+            height: 2px;
+            width: 380px;
+            display: block;
+            position: absolute;
+            left: 215px;
+            top: 12px;    
+        }
+        .pb ul li:last-child:before
+        {
+            content: none;
+        }
+        .pb li.active 
+        {
+            color: green;
+            
+        }
+        .pb li.active img
+        {
+            color: green;
+        }
+        h3 
+        {
+            padding-left: 33px;
+            padding-top: 21px;
+            margin-bottom: 26px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .detailstests
+        {
+            width: 846px;
+            box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 53px;
+            margin-left: 55px;
+            height: 221px;
+        }
+        .addp
+        {
+            margin-top: 0px;
+            margin-left: 97px;
+            font-weight: bold;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .add
+        {
+            display: flex;
+        }
+        .addpsec
+        {
+            margin-top: 0px;
+            margin-left: 99px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .addpnew
+        {
+            margin-top: 0px;
+            margin-left: 190px;
+            font-weight: bold;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .rform
+        {
+            box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            float: right;
+            margin-top: -223px;
+            margin-right: 85px;
+            padding: 20px;
+            width: 330px;
+        }
+        h5
+        {
+            font-weight: normal;
+        }
+        .labp
+        {
+            font-weight: normal;
+            font-size: 18px;
+            margin-bottom: 20px;
+            margin-top: -12px;
+        }
+        .dntp
+        {
+            color: grey;
+            font-size: 12px;
+            width: 50%;
+            margin-bottom: 0;
+        }
+       
+        .dntp2
+        {
+            width: 50%;
+        }
+        .rightdiv p 
+        {
+            margin-bottom: 0;
+        }
+        .rightdiv h5
+        {
+            padding-bottom: 20px;
+        }
+        .formhrnew
+        {
+            margin:0;
+            border: 1px solid lightgray;
+        }
+        .rdpn
+        {
+            margin-left: auto;
+        }
+        .rdp
+        {
+            margin-right: 31px;
+        }
+        .rdbtn
+        {
+            border-radius: 8px;
+            background-color: orange;
+            color: white;
+            float: right;
+            margin-top: 249px;
+            margin-right: -332px;
+            border: none;
+            width: 328px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .dnt1
+        {
+            display: flex;
+        }
+        .dnt2
+        {
+            display: flex;
+        }
+        @media only screen and ( max-width: 768px)
+        {
+            .pb ul li:before
+            {
+                width: 211px;
+                left: 112px;
+            }
+            .addpsec
+            {
+                margin-right: 455px;
+            }
+            .testclass
+            {
+                margin-right: 227px;
+                margin-top: -452px;
+            }
+            .rform
+            {
+                margin-top: -210px;
+            }
+        }
+        .patientaddress
+        {
+            width: 846px;
+            position: absolute;
+            height: 799px;
+            left: 54px;
+            top: 576px;
+            background: #FFFFFF;
+            box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        #t1
+        {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .pa-p1
+        {
+            position: absolute;
+            width: 194px;
+            height: 25px;
+            left: 42px;
+            top: 43px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .address 
+        {
+            position: absolute;
+            width: 314px;
+            height: 132px;
+            left: 38px;
+            top: 89px;
+            background: #FFFFFF;
+            border: 2px solid #EAEAEA;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .pa-p2
+        {
+            position: absolute;
+            width: 159px;
+            height: 76px;
+            left: 22px;
+            top: 16px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        .pa-p3
+        {
+            position: absolute;
+            width: 144px;
+            height: 19px;
+            left: 23px;
+            top: 102px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        .changedit
+        {
+            display: flex;
+            margin-top: 225px;
+            margin-left: 240px;
+        }
+        .changedit a 
+        {
+            margin-right: 39px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .pa-p4
+        {
+            position: relative;
+            width: 194px;
+            height: 25px;
+            left: 42px;
+            top: 43px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px; 
+        }
+        .new
+        {
+        list-style-type: none; 
+        padding: 0;
+        background-color: white;
+        padding-top: 20px;
+        margin-top: 50px;
+        margin-left: 43px;
+        }
+        .new a
+        {
+        color: #000000;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        }
+        .new a:hover
+        {
+        cursor: pointer;
+        color: orange;
+        transition: .2s
+        }
+        .new hr 
+        {
+            margin-top: 1px;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 2px solid rgba(0,0,0,.1);
+            margin-right: 469px;
+        }
+        .new li
+        {
+        display: inline;
+        background-color: white;
+        padding-right: 50px;
+        }
+        .new li a.activenew
+        {
+        border-bottom: 5px solid black;
+        }
+        .activenew
+        {
+        border-bottom: 5px solid black;
+        }
+        .new.activenew
+        {
+            padding: 0;
+        }
+        .tod 
+        {
+            font-size: 16px;
+            color: grey;
+            margin-top: -25px;
+            margin-left: 21px;
+        }
+        .btnclass button 
+        {
+            background-color: white;
+            border: 2px solid  lightgrey;
+            box-sizing: border-box;
+            border-radius: 2px;
+            margin-left: 19px;
+            color: black;
+            width: 77px;
+            height: 33px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .btnclass
+        {
+            margin-top: 48px;
+            margin-left: 23px;
+        }
+        .todcls
+        {
+            margin-bottom: 55px;
+        }
+        
+        .detailstests span 
+        {
+            color: grey;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .family 
+        {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: black;
+            margin-left: 33px;
+            margin-bottom: 11px;
+            display: block;
+        }

@@ -1,0 +1,44 @@
+body{
+    position: relative;
+    font-family: 'Nunito Sans';
+    align-items: center;
+}
+.outer-card{
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.inner-card{
+    width: 18rem;
+    border-radius: 5px;
+}
+.rectangle{
+    width: 242px;
+    height: 163px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.corner {
+    width: 0; 
+    height: 0; 
+    border-top: 67px solid #0076FF;
+    border-bottom: 75px solid transparent;
+    border-right: 75px solid transparent;
+    position: absolute;
+}
+.recommend{
+    font-size: 10px;
+    width: 120px;
+    transform: rotate(-42deg);
+    color: #fff;
+}
+.next{
+    background-color: #FF8900;
+}
+.btn{
+    color: #fff;
+}
+.btn:hover{
+    color: #fff;
+}

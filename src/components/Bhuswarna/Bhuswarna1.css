@@ -1,0 +1,40 @@
+body{
+    font-family: 'Nunito Sans';
+ }
+ .payment{
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+ }
+ hr{
+    height:0.5px;
+    border-width:0;
+    background-color:#EBEBEB;
+ }
+ .pad{
+     padding-bottom: 90px;      /*for padding bottom in the left side payment column*/
+ }
+ .rectangle{
+    width: 195px; 
+    height: 23px;
+    background: #F1F7FF; 
+    border-radius: 5px;
+ }
+ .right-pane{
+    border-radius: 10px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
+ }
+ .right-side{
+    background-color: #fff;
+ }
+ .done{
+     width: 100%;
+     background-color:  #FF8900;
+     color: #fff;
+ }
+ .done:hover{
+   color: #fff;
+ }
+ .card{
+   padding: 30px;
+ }
